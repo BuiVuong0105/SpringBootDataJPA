@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<!-- Base Definition -->
+	<definition name="base.definition" template="/WEB-INF/pages/templates/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/pages/templates/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/pages/templates/left_bar.jsp" />
+		<put-attribute name="content" value="" />
+		<put-attribute name="footer" value="/WEB-INF/pages/templates/footer.jsp" />
+	</definition>
+
+	<!-- Home Page -->
+	<definition name="home" extends="base.definition">
+		<put-attribute name="title" value="Hệ Thống Quản Lý Trường Học" />
+		<put-attribute name="content" value="/WEB-INF/pages/views/home.jsp" />
+	</definition>
+	
+	<!-- School Page -->
+	<definition name="school" extends="base.definition">
+		<put-attribute name="title" value="Trường Học" />
+		<put-attribute name="content" value="/WEB-INF/pages/views/school.jsp" />
+	</definition>
+	
+	<!-- Grade Page -->
+	<definition name="grade" extends="base.definition">
+		<put-attribute name="title" value="Khối" />
+		<put-attribute name="content" value="/WEB-INF/pages/views/grade.jsp" />
+	</definition>
+	
+	<!-- ClazzIndentity Page -->
+	<definition name="clazzIdentity" extends="base.definition">
+		<put-attribute name="title" value="Lớp Định Danh" />
+		<put-attribute name="content" value="/WEB-INF/pages/views/clazzIdentity.jsp" />
+	</definition>
+	
+	<!-- Year Page -->
+	<definition name="year" extends="base.definition">
+		<put-attribute name="title" value="Năm Học" />
+		<put-attribute name="content" value="/WEB-INF/pages/views/year.jsp" />
+	</definition>
+	
+	<!-- Clazz Page -->
+	<definition name="clazz" extends="base.definition">
+		<put-attribute name="title" value="Khóa Học" />
+		<put-attribute name="content" value="/WEB-INF/pages/views/clazz.jsp" />
+	</definition>
+	
+	<!-- Clazz Page -->
+	<definition name="subject" extends="base.definition">
+		<put-attribute name="title" value="Môn Học" />
+		<put-attribute name="content" value="/WEB-INF/pages/views/subject.jsp" />
+	</definition>
+	
+	<!-- Teacher Page -->
+	<definition name="teacher" extends="base.definition">
+		<put-attribute name="title" value="Giáo Viên" />
+		<put-attribute name="content" value="/WEB-INF/pages/views/teacher.jsp" />
+	</definition>
+	
+	<definition name="group" extends="base.definition">
+		<put-attribute name="title" value="Loại Trường" />
+		<put-attribute name="content" value="/WEB-INF/pages/views/group.jsp" />
+	</definition>
+	
+	<definition name="login" template="/WEB-INF/pages/views/login.jsp">
+	</definition>
+	
+</tiles-definitions>

@@ -1,0 +1,36 @@
+2018-07-09 14:47:43 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Starting SpringBootRootApplication on BuiVuong with PID 1296 (started by Bui Vuong in E:\Java Enterprise Editon\Back-end\MyProject\SpringBootData)
+2018-07-09 14:47:43 [restartedMain] DEBUG v.c.vuong.SpringBootRootApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2018-07-09 14:47:43 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - No active profile set, falling back to default profiles: default
+2018-07-09 14:47:59 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Started SpringBootRootApplication in 18.603 seconds (JVM running for 20.381)
+2018-07-09 14:48:25 [http-nio-8080-exec-1] INFO  v.c.vuong.controller.HomeController - Get Schook
+2018-07-09 15:30:42 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Starting SpringBootRootApplication on BuiVuong with PID 1296 (started by Bui Vuong in E:\Java Enterprise Editon\Back-end\MyProject\SpringBootData)
+2018-07-09 15:30:42 [restartedMain] DEBUG v.c.vuong.SpringBootRootApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2018-07-09 15:30:42 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - No active profile set, falling back to default profiles: default
+2018-07-09 15:30:46 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Started SpringBootRootApplication in 4.073 seconds (JVM running for 2587.524)
+2018-07-09 15:39:42 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Starting SpringBootRootApplication on BuiVuong with PID 652 (started by Bui Vuong in E:\Java Enterprise Editon\Back-end\MyProject\SpringBootData)
+2018-07-09 15:39:42 [restartedMain] DEBUG v.c.vuong.SpringBootRootApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2018-07-09 15:39:42 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - No active profile set, falling back to default profiles: default
+2018-07-09 15:39:54 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Started SpringBootRootApplication in 13.627 seconds (JVM running for 16.139)
+2018-07-09 15:40:16 [http-nio-8080-exec-1] INFO  v.c.vuong.controller.HomeController - Get Schook
+2018-07-09 15:40:47 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Starting SpringBootRootApplication on BuiVuong with PID 652 (started by Bui Vuong in E:\Java Enterprise Editon\Back-end\MyProject\SpringBootData)
+2018-07-09 15:40:47 [restartedMain] DEBUG v.c.vuong.SpringBootRootApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2018-07-09 15:40:47 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - No active profile set, falling back to default profiles: default
+2018-07-09 15:40:51 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Started SpringBootRootApplication in 3.487 seconds (JVM running for 72.562)
+2018-07-09 15:41:35 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Starting SpringBootRootApplication on BuiVuong with PID 652 (started by Bui Vuong in E:\Java Enterprise Editon\Back-end\MyProject\SpringBootData)
+2018-07-09 15:41:35 [restartedMain] DEBUG v.c.vuong.SpringBootRootApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2018-07-09 15:41:35 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - No active profile set, falling back to default profiles: default
+2018-07-09 15:42:18 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Starting SpringBootRootApplication on BuiVuong with PID 4100 (started by Bui Vuong in E:\Java Enterprise Editon\Back-end\MyProject\SpringBootData)
+2018-07-09 15:42:18 [restartedMain] DEBUG v.c.vuong.SpringBootRootApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2018-07-09 15:42:18 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - No active profile set, falling back to default profiles: default
+2018-07-09 15:42:30 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Started SpringBootRootApplication in 12.841 seconds (JVM running for 15.14)
+2018-07-09 15:42:38 [http-nio-8080-exec-1] INFO  v.c.vuong.controller.HomeController - Get Schook
+2018-07-09 15:43:04 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Starting SpringBootRootApplication on BuiVuong with PID 4100 (started by Bui Vuong in E:\Java Enterprise Editon\Back-end\MyProject\SpringBootData)
+2018-07-09 15:43:04 [restartedMain] DEBUG v.c.vuong.SpringBootRootApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2018-07-09 15:43:04 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - No active profile set, falling back to default profiles: default
+2018-07-09 15:43:08 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Started SpringBootRootApplication in 3.518 seconds (JVM running for 52.587)
+2018-07-09 15:43:11 [http-nio-8080-exec-1] INFO  v.c.vuong.controller.HomeController - Get Schook
+2018-07-09 15:43:33 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Starting SpringBootRootApplication on BuiVuong with PID 3860 (started by Bui Vuong in E:\Java Enterprise Editon\Back-end\MyProject\SpringBootData)
+2018-07-09 15:43:33 [restartedMain] DEBUG v.c.vuong.SpringBootRootApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2018-07-09 15:43:33 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - No active profile set, falling back to default profiles: default
+2018-07-09 15:43:41 [restartedMain] INFO  v.c.vuong.SpringBootRootApplication - Started SpringBootRootApplication in 9.457 seconds (JVM running for 11.971)
+2018-07-09 15:43:46 [http-nio-8080-exec-1] INFO  v.c.vuong.controller.HomeController - Get Schook
