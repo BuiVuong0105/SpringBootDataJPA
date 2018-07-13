@@ -10,10 +10,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
@@ -61,10 +59,6 @@ public class Teacher {
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "schoolid")
 	private School school;
-
-	@JsonIgnore
-	@OneToOne(fetch = FetchType.LAZY, mappedBy = "teacher")
-	private User user;
 
 	public Teacher() {
 		super();
@@ -194,13 +188,5 @@ public class Teacher {
 
 	public void setSchool(School school) {
 		this.school = school;
-	}
-
-	public User getUser() {
-		return user;
-	}
-
-	public void setUser(User user) {
-		this.user = user;
 	}
 }

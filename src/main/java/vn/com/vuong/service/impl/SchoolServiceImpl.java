@@ -18,7 +18,7 @@ public class SchoolServiceImpl implements SchoolService {
 	private SchoolDAO schoolDAO;
 	
 	@Override
-	public List<School> search() {
-		return schoolDAO.search();
+	public List<School> search(String name) {
+		return schoolDAO.search(name);
 	}
 }

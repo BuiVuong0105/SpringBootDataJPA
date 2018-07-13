@@ -11,7 +11,7 @@
     </layout>
   </appender>
 
-  <appender name="FILE-AUDIT"
+ <appender name="FILE-AUDIT"
     class="ch.qos.logback.core.rolling.RollingFileAppender">
     <file>${DEV_HOME}/debug.log</file>
     <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
@@ -20,14 +20,14 @@
       </Pattern>
     </encoder>
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-      <!-- rollover daily -->
+      rollover daily
       <fileNamePattern>${DEV_HOME}/archived/debug.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
       <timeBasedFileNamingAndTriggeringPolicy
         class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
         <maxFileSize>10MB</maxFileSize>
       </timeBasedFileNamingAndTriggeringPolicy>
     </rollingPolicy>
-  </appender>
+  </appender> 
 
   <appender name="FILE-ERROR"
     class="ch.qos.logback.core.rolling.RollingFileAppender">

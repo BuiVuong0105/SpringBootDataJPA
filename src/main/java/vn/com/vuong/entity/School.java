@@ -58,18 +58,6 @@ public class School {
 	@OneToMany(mappedBy = "school", fetch = FetchType.LAZY)
 	private List<Student> listStudent;
 
-	@JsonIgnore
-	@OneToMany(mappedBy = "school", fetch = FetchType.LAZY)
-	private List<Year> listYear;
-
-	@JsonIgnore
-	@OneToMany(mappedBy = "school", fetch = FetchType.LAZY)
-	private List<ClazzIdentity> listClazzIndentity;
-
-	@JsonIgnore
-	@OneToMany(mappedBy = "school", fetch = FetchType.LAZY)
-	private List<Subject> listSubject;
-
 	public School() {
 		super();
 	}
@@ -169,29 +157,4 @@ public class School {
 	public void setListStudent(List<Student> listStudent) {
 		this.listStudent = listStudent;
 	}
-
-	public List<Year> getListYear() {
-		return listYear;
-	}
-
-	public void setListYear(List<Year> listYear) {
-		this.listYear = listYear;
-	}
-
-	public List<ClazzIdentity> getListClazzIndentity() {
-		return listClazzIndentity;
-	}
-
-	public void setListClazzIndentity(List<ClazzIdentity> listClazzIndentity) {
-		this.listClazzIndentity = listClazzIndentity;
-	}
-
-	public List<Subject> getListSubject() {
-		return listSubject;
-	}
-
-	public void setListSubject(List<Subject> listSubject) {
-		this.listSubject = listSubject;
-	}
-
 }
